@@ -12,6 +12,11 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001-dev.com:7001/eureka/
+info:
+  app.name: springcloudhelloworld
+  company.name: www.springcloudhelloworld.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
 ---
 server:
   port: 8202
@@ -23,3 +28,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7001-test.com:7001/eureka/
+info:
+  app.name: springcloudhelloworld
+  company.name: www.springcloudhelloworld.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
