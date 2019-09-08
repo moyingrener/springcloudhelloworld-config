@@ -6,7 +6,7 @@ server:
   port: 8201
 spring:
   application:
-    name: moyingren-config-client
+    name: springcloud-config-client
   profiles: dev
 eureka:
   client:
@@ -17,7 +17,7 @@ server:
   port: 8202
 spring:
   application:
-    name: moyingren-config-client
+    name: springcloud-config-client
   profiles: test
 eureka:
   client:
