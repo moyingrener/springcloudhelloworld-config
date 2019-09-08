@@ -1,0 +1,21 @@
+﻿server:
+  port: 81
+spring:
+  application:
+    name: moyingren-department-consumer81
+  profiles:
+    active: dev
+---
+server:
+  port: 81
+spring:
+  application:
+    name: moyingren-department-consumer81
+  profiles: dev
+---
+server:
+  port: 81
+spring:
+  application:
+    name: moyingren-department-consumer81
+  profiles: test
