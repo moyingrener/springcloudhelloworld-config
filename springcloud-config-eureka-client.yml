@@ -17,6 +17,11 @@ eureka:
     service-url:
       # 单机defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）
       defaultZone: http://eureka7001.com:7001/eureka/ #eureka集群
+info:
+  app.name: springcloudhelloworld
+  company.name: www.springcloudhelloworld.com
+  build.artifactId: "@project.artifactId@"
+  build.version: "@project.version@"
 ---
 server:
   port: 7001
@@ -33,3 +38,8 @@ eureka:
     service-url:
       # 单机defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）
       defaultZone: http://eureka7001.com:7001/eureka/ #eureka集群
+info:
+  app.name: springcloudhelloworld
+  company.name: www.springcloudhelloworld.com
+  build.artifactId: "@project.artifactId@"
+  build.version: "@project.version@"
