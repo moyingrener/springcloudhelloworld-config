@@ -31,5 +31,5 @@ eureka:
 info:
   app.name: springcloudhelloworld
   company.name: www.springcloudhelloworld.com
-  build.artifactId: "@project.artifactId@"
-  build.version: "@project.version@"
+  build.artifactId: @project.artifactId@
+  build.version: @project.version@
